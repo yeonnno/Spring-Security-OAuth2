@@ -29,7 +29,7 @@ public class IndexController {
 
     @GetMapping("/user")
     public @ResponseBody String user() {
-        return "uesr";
+        return "user";
     }
 
     @GetMapping("/admin")
